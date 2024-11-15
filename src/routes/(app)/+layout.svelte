@@ -8,8 +8,8 @@
 </script>
 
 <svelte:head>
-	<title>Project One</title>
-	<meta name="description" content="ProjectOne" />
+	<title>Project 4</title>
+	<meta name="description" content="Project4" />
 </svelte:head>
 
 <main>

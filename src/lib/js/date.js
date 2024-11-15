@@ -228,3 +228,24 @@ export const getNextDay = (inputDate) => {
 	// 18 Maret 2024
 }
 
+export const getNumberMonth = () => {
+	// Mendapatkan tanggal saat ini
+	const today = new Date();
+	const month = today.getMonth(); // Bulan saat ini (0-11)
+	const year = today.getFullYear(); // Tahun saat ini
+
+	// Fungsi untuk menghitung jumlah hari dalam bulan
+	function getDaysInMonth(month, year) {
+		return new Date(year, month + 1, 0).getDate();
+	}
+
+	// Mendapatkan jumlah hari dalam bulan ini
+	const daysInMonth = getDaysInMonth(month, year);
+
+	// Membuat array untuk hari-hari dalam bulan ini
+	const daysArray = Array.from({ length: daysInMonth }, (_, i) => i + 1);
+
+	return daysArray
+	// [1,2,3,4,5,6,7,8,9,...,30]
+}
+

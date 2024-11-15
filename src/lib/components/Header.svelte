@@ -13,7 +13,7 @@
 	<div class="container-fluid">
 		<div class="menu ms-3">
 			<a class="btn btn-light me-2" href="/" role="button"
-				><i class="bi-house-fill me-2"></i>Menu 1</a
+				><i class="bi-house-fill me-2"></i>Beranda</a
 			>
 			<a class="btn btn-light me-2" href="/rekap/notulen" role="button"
 				><i class="bi-file-earmark-text-fill me-2"></i>Menu 2</a
@@ -54,13 +54,13 @@
 <style>
 	nav {
 		height: 70px;
-		color: #023e8a;
+		color: #264653;
 	}
 	.menu a {
 		font-size: 13px;
-		color: #023e8a;
+		color: #264653;
 		font-weight: 500;
-		background-color: rgba(2, 62, 138, 0.114);
+		background-color: rgba(38, 70, 83, 0.114);
 	}
 	.reload {
 		font-size: 22px;
